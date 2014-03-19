@@ -1,0 +1,8 @@
+from visual import *
+
+head = sphere(pos = (0,2,0), radius = 0.5, color = color.green)
+body = cylinder(pos = (0,1.7,0), axis = (0,-2,0), radius = .2, color = color.green)
+rleg = cylinder(pos = (0,0,0), axis = (-.5,-1.5,0), radius = .15, color = color.green)
+lleg = cylinder(pos = (0,0,0), axis = (.5,-1.5,0), radius = .15, color = color.green)
+rarm = cylinder(pos = (0,1.3,0), axis = (-.75,-1,0), radius = .12, color = color.green)
+larm = cylinder(pos = (0,1.3,0), axis = (.75,-1,0), radius = .12, color = color.green)
